@@ -164,3 +164,62 @@ nx.draw(G, with_labels=True)
 
 ```
 
+## 💬 LLM Workflow
+
+- The pipeline uses chain-of-prompts for modular reasoning:
+- Entity canonicalization
+- Triple validation & enrichment
+- Personality inference
+- Contradiction checks
+- Graph building instructions
+
+Example prompt:
+```vbnet
+You are an assistant that extracts factual triples from text.
+Sentence: "John is outgoing and often leads teams."
+Return factual triples as JSON and infer Big Five personality scores for John.
+```
+
+## 🧾 Deliverables
+
+- ✅ Public GitHub Repository (this repo)
+- ✅ Python code & notebook
+- ✅ Synthetic dataset
+- ✅ Evaluation metrics
+- ✅ LLM session exports (/LLM_SESSION/)
+- ✅ LLM-generated report (REPORT.md)
+
+## 🧠 Insights & Limitations
+
+- Insights
+- LLM-guided refinement significantly improved relation consistency.
+- Personality inference worked well with descriptive sentences, less so with implicit cues.
+- Hybrid rule + LLM approach yields more reliable graphs than pure prompting.
+- Limitations
+- Personality extraction heavily depends on context length and description richness.
+- LLMs can hallucinate non-existent relations.
+- Synthetic data limits real-world generalizability.
+
+## 🧩 Future Improvements
+
+- Integrate LangChain or LLMGraph to orchestrate multi-step LLM calls.
+- Use Neo4j or RDFLib for graph database integration.
+- Extend personality modelling beyond Big Five (e.g., MBTI-based reasoning).
+- Explore fine-tuning LLMs for domain-specific relation extraction.
+
+## 🧑‍💻 Author
+
+**Onyekachukwu Ekesi**
+Data Science & Business Analytics | Machine Learning | Power BI
+- 📧 Email Me
+- 🌐 LinkedIn
+- 💻 Portfolio
+
+## 📚 License
+
+This project is released under the MIT License
+.
+
+Note:
+The accompanying REPORT.md file was generated entirely through an LLM session, in accordance with the challenge’s instructions.
+All reasoning, prompt iterations, and outputs are documented in the LLM_SESSION/ directory.
