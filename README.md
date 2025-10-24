@@ -203,7 +203,8 @@ Return factual triples as JSON and infer Big Five personality scores for John.
 
 ## 🧑‍💻 Author
 
-**Onyekachukwu Ekesi**
+**Onyekachukwu Ekesi** 
+
 Data Science & Business Analytics | Machine Learning | Power BI
 - 📧 Email Me: onyekaekesi@gmail.com
 - 🌐 LinkedIn: https://www.linkedin.com/in/onyekachukwu-ekesi/
