@@ -116,10 +116,48 @@ Example:
 ```
 
 ## 🔄 Workflow Summary
+### 1. Generate Synthetic Data
 
 ```bash
 Generate Synthetic Data
 python src/synthetic_generator.py
 ```
+### 2. Run Pipeline (Extraction + LLM Refinement + KG Building)
 
+```bash
+python src/synthetic_generator.py
+```
+### 3. Evaluate Model
+
+```bash
+python src/evaluate.py
+```
+### 4. Visualize Knowledge Graph
+Inside the notebook:
+
+```bash
+import networkx as nx
+nx.draw(G, with_labels=True)
+```
+## 📊 Evaluation Metrics
+
+```
+
+| Task                      | Metric                | Description                                       |
+| ------------------------- | --------------------- | ------------------------------------------------- |
+| **Triple Extraction**     | Precision, Recall, F1 | Match predicted triples against ground truth      |
+| **Personality Inference** | RMSE                  | Compare predicted trait scores to ground truth    |
+| **Qualitative Analysis**  | Manual Review         | Sanity-check correctness and consistency of graph |
+
+```
+
+## 📊 Evaluation Metrics
+
+```
+| Task                      | Metric                | Description                                       |
+| ------------------------- | --------------------- | ------------------------------------------------- |
+| **Triple Extraction**     | Precision, Recall, F1 | Match predicted triples against ground truth      |
+| **Personality Inference** | RMSE                  | Compare predicted trait scores to ground truth    |
+| **Qualitative Analysis**  | Manual Review         | Sanity-check correctness and consistency of graph |
+```
 
