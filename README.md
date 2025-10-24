@@ -111,9 +111,13 @@ Example:
     "neuroticism": 0.28
   }
 }
+
 🔄 Workflow Summary
 
+```bash
+{
 Generate Synthetic Data
 python src/synthetic_generator.py
+}
 
-python src/synthetic_generator.py
+
