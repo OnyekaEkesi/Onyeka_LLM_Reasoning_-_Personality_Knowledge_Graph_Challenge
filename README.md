@@ -1,4 +1,4 @@
-# Onyeka_LLM_Reasoning_Personality_Knowledge_Graph_Challenge
+# LLM_Reasoning_Personality_Knowledge_Graph_Challenge_Onyekachukwu_Ekesi
 The Intellumia Internship Challenge
 
 # 🧠 LLM Reasoning & Personality Knowledge Graph Challenge
