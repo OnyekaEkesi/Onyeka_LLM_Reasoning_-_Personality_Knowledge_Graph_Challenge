@@ -141,28 +141,11 @@ nx.draw(G, with_labels=True)
 ```
 ## 📊 Evaluation Metrics
 
-```
-
 | Task                      | Metric                | Description                                       |
 | ------------------------- | --------------------- | ------------------------------------------------- |
 | **Triple Extraction**     | Precision, Recall, F1 | Match predicted triples against ground truth      |
 | **Personality Inference** | RMSE                  | Compare predicted trait scores to ground truth    |
 | **Qualitative Analysis**  | Manual Review         | Sanity-check correctness and consistency of graph |
-
-```
-
-## 🧰 Tools & Libraries
-
-```td
-| Category               | Tools                          |
-| ---------------------- | ------------------------------ |
-| **Core NLP**           | `spaCy`, `transformers`        |
-| **Graph Construction** | `NetworkX`                     |
-| **Evaluation**         | `scikit-learn`, `pandas`       |
-| **LLM Assistance**     | ChatGPT / OpenAI API           |
-| **Environment**        | Python ≥ 3.9, Jupyter Notebook |
-
-```
 
 ## 🧰 Tools & Libraries
 
