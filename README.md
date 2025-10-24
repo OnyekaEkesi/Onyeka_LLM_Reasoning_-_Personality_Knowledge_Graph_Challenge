@@ -21,6 +21,7 @@ Hence, every major design decision, experiment, and refinement step was guided b
 
 ## 📁 Repository Structure
 
+```bash
 llm-kg-personality/
 ├─ data/
 │ ├─ synthetic/ # Generated sample documents + ground-truth triples & traits
@@ -44,6 +45,7 @@ llm-kg-personality/
 ├─ REPORT.md # Final short report (generated using LLM)
 ├─ README.md # This documentation file
 ├─ requirements.txt # Python dependencies
+```
 
 ---
 
@@ -75,12 +77,12 @@ Personality traits are represented using the **Big Five (OCEAN)** model:
 Each person node is connected to trait nodes through `"has_trait"` edges, where trait nodes carry numeric scores (0–1).
 
 Example representation:
-
+```bash
 Person: Alice
 ├── has_trait → openness (0.82)
 ├── has_trait → conscientiousness (0.90)
 └── has_trait → extraversion (0.65)
-
+```
 
 ---
 
@@ -111,13 +113,13 @@ Example:
     "neuroticism": 0.28
   }
 }
+```
 
 ## 🔄 Workflow Summary
 
 ```bash
-{
 Generate Synthetic Data
 python src/synthetic_generator.py
-}
+```
 
 
