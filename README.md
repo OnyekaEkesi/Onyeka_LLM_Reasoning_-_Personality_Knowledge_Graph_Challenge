@@ -164,6 +164,17 @@ nx.draw(G, with_labels=True)
 
 ```
 
+## 🧰 Tools & Libraries
+
+| Category               | Tools                          |
+| ---------------------- | ------------------------------ |
+| **Core NLP**           | `spaCy`, `transformers`        |
+| **Graph Construction** | `NetworkX`                     |
+| **Evaluation**         | `scikit-learn`, `pandas`       |
+| **LLM Assistance**     | ChatGPT / OpenAI API           |
+| **Environment**        | Python ≥ 3.9, Jupyter Notebook |
+
+
 ## 💬 LLM Workflow
 
 - The pipeline uses chain-of-prompts for modular reasoning:
@@ -211,9 +222,9 @@ Return factual triples as JSON and infer Big Five personality scores for John.
 
 **Onyekachukwu Ekesi**
 Data Science & Business Analytics | Machine Learning | Power BI
-- 📧 Email Me
-- 🌐 LinkedIn
-- 💻 Portfolio
+- 📧 Email Me: onyekaekesi@gmail.com
+- 🌐 LinkedIn: https://www.linkedin.com/in/onyekachukwu-ekesi/
+- 💻 Portfolio: https://www.datascienceportfol.io/onyekaekesi
 
 ## 📚 License
 
