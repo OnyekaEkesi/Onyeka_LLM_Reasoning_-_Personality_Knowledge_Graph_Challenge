@@ -1,0 +1,2 @@
+# Onyeka_LLM_Reasoning_-_Personality_Knowledge_Graph_Challenge
+The Intellumia Internship Challenge
